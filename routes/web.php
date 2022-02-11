@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BooksController;
 use App\Http\Controllers\AuthorsController;
+use App\Http\Controllers\AuthorsBookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/home', function () {
 
 Route::resource('books',BooksController::class);
 Route::resource('authors',AuthorsController::class);
+Route::resource('authorsBook',AuthorsBookController::class);

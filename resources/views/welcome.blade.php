@@ -8,6 +8,7 @@
             <p>
                 <a href="books" class="btn btn-secondary my-2">Book Records</a>
                 <a href="authors" class="btn btn-secondary my-2">Author Records</a>
+                <a href="authorsBook" class="btn btn-secondary my-2">Authors Book Records</a>
             </p>
         </div>
         </div>
